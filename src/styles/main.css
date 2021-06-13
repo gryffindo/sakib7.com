@@ -13,26 +13,40 @@
   padding: 0;
 }
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 html::-webkit-scrollbar {
-	width: 10px;
-	background-color: #ed5565;
+  width: 10px;
+  background-color: #ed5565;
 }
 ::selection {
-	color: #181818;
-	background-color: #ed5565;
-	padding: 2px;
+  color: #181818;
+  background-color: #ed5565;
+  padding: 2px;
 }
 body {
   background-color: #1d1d1d;
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: #fff;
-	list-style: none;
-	
+  list-style: none;
+  overflow-x: hidden;
 }
 /* Header Start */
 
+.clock {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  max-width: 210px;
+  background-color: #252627;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 25);
+  padding: 20px 30px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+  position: absolute;
+  right: 2%;
+  top: 1rem;
+}
 .top_heading {
   font-family: "Lobster", cursive;
   font-size: 32px;
@@ -50,6 +64,10 @@ body {
   background: #000;
   width: 100%;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
@@ -66,16 +84,27 @@ body {
   bottom: 0;
   display: flex;
   z-index: 3;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
   align-items: center;
   margin: 0;
   padding: 0;
 }
 /* Header End */
-
 /* Menu Start */
 .main-menu_nav {
   width: 100%;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   border-top: 1px solid #282828;
   margin-bottom: 109px;
@@ -119,5 +148,3 @@ body {
 .social ul li a i:hover {
   color: #909096;
 }
-
-/* Menu end */

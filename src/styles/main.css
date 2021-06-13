@@ -50,10 +50,6 @@ body {
   background: #000;
   width: 100%;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
@@ -70,12 +66,6 @@ body {
   bottom: 0;
   display: flex;
   z-index: 3;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -86,12 +76,6 @@ body {
 .main-menu_nav {
   width: 100%;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
   border-top: 1px solid #282828;
   margin-bottom: 109px;
@@ -134,13 +118,6 @@ body {
 }
 .social ul li a i:hover {
   color: #909096;
-}
-.sakib_img {
-  height: 420px;
-  width: 350px;
-  position: absolute;
-  right: 8%;
-  top: 20%;
 }
 
 /* Menu end */

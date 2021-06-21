@@ -17,7 +17,10 @@ html {
 }
 html::-webkit-scrollbar {
   width: 10px;
-  background-color: #ed5565;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #ed5565;
+	border-radius: 4px;
 }
 ::selection {
   color: #181818;
@@ -147,4 +150,267 @@ body {
 }
 .social ul li a i:hover {
   color: #909096;
+}
+/* Toggler Button start */
+#toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: #ed5565;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  z-index: 1000000;
+	border-radius: 15px;
+}
+#toggle:hover {
+  background: #003147;
+}
+#toggle::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  background: #fff;
+  transform: translateY(-5px);
+  transition: 0.2s;
+}
+
+#toggle::after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  background: #fff;
+  transform: translateY(5px);
+  transition: 0.3s;
+}
+
+#toggle.active::before {
+  transform: translateY(0px) rotate(45deg);
+}
+
+#toggle.active::after {
+  transform: translateY(0px) rotate(-45deg);
+}
+#hidden_in_header {
+  display: none;
+}
+#sidebar {
+  z-index: 100000;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100vh;
+  background: #181818;
+  transition: 0.5s;
+  font-family: "Texturina", serif;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul {
+  position: relative;
+  margin-top: 50px;
+}
+
+#sidebar ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 40px;
+}
+
+#sidebar ul li a {
+  color: #909096;
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  transition: 0.4s;
+}
+#sidebar ul li a:hover {
+  color: #ed5565;
+}
+.welcome {
+  font-size: 60px;
+  position: absolute;
+  top: 30%;
+  left: 18%;
+  color: #fff;
+  z-index: 1000;
+}
+.welcome span:hover {
+  color: #3ee798;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.sakib {
+  color: #ed5565;
+}
+.sakib:hover {
+  color: #ed5565 !important;
+}
+#hero {
+  height: 100vh;
+}
+/* Hero End */
+
+/* Sakib Image Start */
+.sakib_img {
+  height: 420px;
+  width: 350px;
+  position: absolute;
+  right: 8%;
+  top: 20%;
+}
+/* Sakib Image End */
+/* Toggler Button End*/
+
+@media only screen and (max-width: 991.98px){
+	.main-menu{
+		display: none;
+	}
+	#hidden_in_header {
+		display: block;
+	}
+}
+/* About Start */
+#abt {
+  height: 100vh;
+  padding-top: 1rem;
+}
+
+#abt h1 {
+  z-index: 0;
+  opacity: 0.1;
+  margin-bottom: 1rem;
+  color: #707070;
+  font-size: 8rem;
+  font-weight: 700;
+  text-align: right;
+  /* margin-right: 6rem; */
+  position: relative;
+  right: 15%;
+}
+
+.about-me-info {
+  max-width: 600px;
+  background-color: #252627;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 25);
+  padding: 50px;
+  position: relative;
+  top: -10%;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.3rem;
+}
+.about-me-info h2 {
+  color: #ed5565;
+  text-align: center;
+}
+/* About End */
+
+/* Media Queries */
+@media only screen and (max-width: 991.98px) {
+  #hidden_in_header {
+    display: block;
+  }
+  .main-menu {
+    display: none;
+  }
+  .welcome {
+    left: 10%;
+  }
+  .sakib_img {
+    right: 10%;
+  }
+	.clock {
+		left: 2%;
+	}
+}
+@media only screen and (max-width: 890px) {
+  .welcome {
+    left: 5%;
+  }
+  .sakib_img {
+    right: 5%;
+  }
+}
+@media only screen and (max-width: 836px) {
+  .welcome {
+    left: 2%;
+  }
+  .sakib_img {
+    right: 2%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .welcome {
+    font-size: 50px;
+  }
+  .sakib_img {
+    height: 350px;
+    width: 292px;
+  }
+}
+@media only screen and (max-width: 625px) {
+  .welcome {
+    font-size: 40px;
+  }
+  .sakib_img {
+    height: 300px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 565.99px) {
+  .sakib_img {
+    height: 250px;
+    width: 208.33px;
+    top: 55%;
+    right: 40%;
+    left: 20%;
+  }
+  .welcome {
+    top: 20%;
+    left: 20%;
+  }
+}
+@media only screen and (max-width: 411.98px) {
+	
+}
+@media only screen and (max-width: 359.98px) {
+  .sakib_img {
+    height: 200px;
+    width: 165px;
+  }
+}
+@media only screen and (max-width: 300.99px) {
+  .welcome {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 224.998px) {
+  .welcome {
+    left: 10%;
+  }
+  .sakib_img {
+    width: 125px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 199.98px) {
+  .welcome {
+    font-size: 20px;
+  }
 }

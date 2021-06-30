@@ -1,28 +1,25 @@
-import Header from "./components/header";
-import "./styles/main.css";
-import Hero from "./components/home/hero";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from './components/home/about'
+import Home from "./pages/Home";
+import Article from "./pages/Article";
+import Portfolio from "./pages/Portfolio";
+import Awards from "./pages/Awards";
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-          <div className="App">
-            <Header />
-            <Hero />
-          </div>
+          <Home />
         </Route>
         <Route exact path="/article">
-          <Header />
+          <Article />
         </Route>
         <Route exact path="/portfolio">
-          <Header />
+          <Portfolio />
         </Route>
         <Route exact path="/awards">
-          <Header />
-        </Route>
+					<Awards />
+				</Route>
       </Switch>
     </Router>
   );

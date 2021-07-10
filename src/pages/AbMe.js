@@ -1,11 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import Header from "../components/header"
 
-export default function About() {
-	return (
-		<section id="abt">
-      <div class="container">
-        <h1 class="about_heading">About</h1>
+const AbMe = () => {
+	return ( 
+		<>
+			<Header />
+        <h1 class="hello_kitty">About</h1>
         <div class="about-me-info">
           <h2>بسم الله</h2>
           <p>
@@ -17,9 +16,9 @@ export default function About() {
             I have extreme fascination in computer programming, mathematics and
             physics equally.
           </p>
-					<Link className="readMore" to='/about'>Read More</Link>
         </div>
-      </div>
-    </section>
-	)
+		</>
+	 );
 }
+ 
+export default AbMe;

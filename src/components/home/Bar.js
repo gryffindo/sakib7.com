@@ -19,6 +19,16 @@ const Bar = () => {
           <span class="js"></span>
         </span>
         <li></li>
+				<h3>C++</h3>
+        <span class="bar">
+          <span class="c"></span>
+        </span>
+        <li></li>
+				<h3>C</h3>
+        <span class="bar">
+          <span class="c"></span>
+        </span>
+        <li></li>
         <h3>Python</h3>
         <span class="bar">
           <span class="python"></span>

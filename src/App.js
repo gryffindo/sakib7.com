@@ -3,22 +3,30 @@ import Home from "./pages/Home";
 import Article from "./pages/Article";
 import Portfolio from "./pages/Portfolio";
 import Awards from "./pages/Awards";
+import AbMe from "./pages/AbMe";
+import Skills from "./pages/Skills";
 
-function App() {
-  return (
+function App() { 
+	 return (
     <Router>
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
         <Route exact path="/article">
-          <Article />
+					<Article />
         </Route>
         <Route exact path="/portfolio">
           <Portfolio />
         </Route>
         <Route exact path="/awards">
 					<Awards />
+				</Route>
+				<Route exact path="/about">
+					<AbMe />
+				</Route>
+				<Route exact path="/skills">
+					<Skills />
 				</Route>
       </Switch>
     </Router>

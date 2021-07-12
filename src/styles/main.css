@@ -164,7 +164,7 @@ body {
 #abt {
   height: 100vh;
   padding-top: 1rem;
-	margin-top: 100vh;
+	/* margin-top: 100vh; */
 }
 
 #abt h1 {
@@ -291,7 +291,7 @@ body {
 }
 .html {
   width: 90%;
-  animation: html 2s;
+  animation: html 3s;
 }
 .css {
   width: 70%;
@@ -332,6 +332,16 @@ footer p {
 /* Footer End */
 
 /* Media Queries */
+@media only screen and (max-width: 1199.98px) {
+	#abt {
+		margin-top: 10rem;
+		margin-left: 2rem;
+	}
+	#skills {
+		margin-left: 3rem;
+		margin-bottom: 10rem;
+	}
+}
 @media only screen and (max-width: 991.98px) {
   #hidden_in_header {
     display: block;
@@ -348,6 +358,9 @@ footer p {
   .clock {
     left: 2%;
   }
+	#abt, #skills {
+		margin-left: 0;
+	}
 }
 @media only screen and (max-width: 890px) {
   .welcome {
@@ -385,6 +398,21 @@ footer p {
 }
 
 @media only screen and (max-width: 565.99px) {
+	.readMore {
+		font-size: 14px;
+	}
+	.skill_bar {
+		width: 300px;
+	}
+	#abt h1, #skills h1 {
+		font-size: 4rem;
+	}
+	p {
+		font-size: 18px;
+	}
+	.about-me-info {
+		margin-right: 6rem;
+	}
   .sakib_img {
     height: 250px;
     width: 208.33px;
@@ -397,14 +425,29 @@ footer p {
     top: 20%;
     left: 20%;
   }
+	#abt {
+		margin-top: 20rem;
+	}
 }
-@media only screen and (max-width: 411.98px) {
+@media only screen and (max-width: 413.98px) {
+	#abt{
+		margin-bottom: 4rem;
+	}
+	#skills {
+		margin-bottom: 14rem;
+	}
 }
 @media only screen and (max-width: 359.98px) {
+	p {
+		font-size: 15px;
+	}
   .sakib_img {
     height: 200px;
     width: 165px;
   }
+	#skills {
+		margin-bottom: 16rem;
+	}
 }
 @media only screen and (max-width: 300.99px) {
   .welcome {

@@ -58,3 +58,27 @@
   margin-top: 10px;
   color: #ed5565;
 }
+@media only screen and (max-width: 779.98px) {
+	.art {
+		margin-right: 6rem;
+	}
+}
+@media only screen and (max-width: 575.98px) {
+	.art_tit {
+		font-size: 1.5rem;
+	}
+	p {
+		font-size: 18px;
+	}
+	.hello_kitty {
+		font-size: 4rem;
+	}
+	a {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 359.98px) {
+	.art_tit {
+		font-size: 1rem;
+	}
+}

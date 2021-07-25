@@ -15,11 +15,12 @@ function Header() {
           <Link to="/about">About Me</Link>
 					<Link to='/skills'>My Skills</Link>
           <Link to="/portfolio">Portfolio</Link>
-          <Link to="/article">Articles</Link>
+          {/* <Link to="/article">Articles</Link> */}
           <Link to="/awards">Honors and awards</Link>
         </div>
         <p className="email">sakibalhasan17442@gmail.com</p>
       </div>
+			<div className="small-header"><h1 className="small">Sakib</h1><div className="toggle"></div></div>
     </div>
   );
 }

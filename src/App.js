@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Awards from "./pages/Awards";
 import AbMe from "./pages/AbMe";
 import Skills from "./pages/Skills";
+import Article1 from "./article/1";
 
 function App() { 
 	 return (
@@ -27,6 +28,14 @@ function App() {
 				</Route>
 				<Route exact path="/skills">
 					<Skills />
+				</Route>
+
+				{/* Article Routes */}
+				<Route exact path="/article/1">
+					<Article1 />
+				</Route>
+				<Route exact path="/article/1">
+					<Article1 />
 				</Route>
       </Switch>
     </Router>

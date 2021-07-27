@@ -1,9 +1,11 @@
-import Header from "../components/header"
+import Header from "../components/header";
 
 const AbMe = () => {
-	return ( 
-		<>
-			<Header />
+  return (
+    <>
+      <Header />
+
+      <div className="section">
         <h1 class="hello_kitty">About</h1>
         <div class="about-me-info">
           <h2>بسم الله</h2>
@@ -17,8 +19,9 @@ const AbMe = () => {
             physics equally.
           </p>
         </div>
-		</>
-	 );
-}
- 
+      </div>
+    </>
+  );
+};
+
 export default AbMe;

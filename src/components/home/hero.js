@@ -19,7 +19,9 @@ function Hero () {
 					<span>p </span>
 					<span>e </span>
 					<span>r </span>
+					<p className="tt">HTML/CSS/JavaScript/React JS/ C++</p>
 				</h1>
+				
 			</div>
 
 			<div>

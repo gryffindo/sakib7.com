@@ -11,7 +11,8 @@
   z-index: 1;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 1.3rem;
-  margin-top: 8rem;
+  margin-top: 2rem;
+	margin: 2rem;
 }
 #note p {
   margin-bottom: 15px;
@@ -27,7 +28,7 @@
   /* margin-right: 6rem; */
   position: relative;
   right: 5%;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 .progra {
   width: 600px;
@@ -40,6 +41,7 @@
 .titi {
   text-align: center;
   font-size: 22px;
+	margin-top: -30px;
 }
 
 .snow {

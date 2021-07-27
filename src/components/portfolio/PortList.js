@@ -6,7 +6,7 @@ const PortFolio = () => {
 			<h1 className="hello_kitty">My Works</h1>
       <div className="col">
         <div className="side row">
-          <a href="https://saifsaki.github.io/Agency/">
+          <a href="https://gryffindo.github.io/Agency/">
             <img src="/img/boot.png" alt="" />
           </a>
         </div>
@@ -16,7 +16,7 @@ const PortFolio = () => {
           </a>
         </div>
         <div className="row">
-          <a href="https://saifsaki.github.io/Food/">
+          <a href="https://gryffindo.github.io/Food/">
             <img src="/img/fod.png" alt="" />
           </a>
         </div>
@@ -24,17 +24,17 @@ const PortFolio = () => {
 
       <div class="col">
         <div className="side row">
-          <a href="https://saifsaki.github.io/Analog-Clock/">
+          <a href="https://gryffindo.github.io/Analog-Clock/">
             <img src="/img/clock.png" alt="" />
           </a>
         </div>
         <div className="row">
-          <a href="https://saifsaki.github.io/Brigate/">
+          <a href="https://gryffindo.github.io/Brigate/">
             <img src="/img/brigate.png" alt="" />
           </a>
         </div>
         <div className="row">
-          <a href="https://saifsaki.github.io/Calculator/">
+          <a href="https://gryffindo.github.io/Calculator/">
             <img src="/img/calculator.jpg" alt="" />
           </a>
         </div>
@@ -42,17 +42,17 @@ const PortFolio = () => {
 
       <div className="col">
         <div className="side row">
-          <a href="https://saifsaki.github.io/Card-UI/">
+          <a href="https://gryffindo.github.io/Card-UI/">
             <img src="/img/card.png" alt="" />
           </a>
         </div>
         <div className="row">
-          <a href="https://saifsaki.github.io/Decimal-To-Binary/">
+          <a href="https://gryffindo.github.io/Decimal-To-Binary/">
             <img src="/img/dtobi.png" alt="" />
           </a>
         </div>
         <div className="row">
-          <a href="https://saifsaki.github.io/Get-List/">
+          <a href="https://gryffindo.github.io/Get-List/">
             <img src="/img/controller.jpg" alt="" />
           </a>
         </div>
@@ -60,17 +60,17 @@ const PortFolio = () => {
 
       <div class="col">
         <div className="side row">
-          <a href="https://saifsaki.github.io/flex_magic/">
+          <a href="https://gryffindo.github.io/flex_magic/">
             <img src="/img/flex.png" alt="" />
           </a>
         </div>
         <div className="row">
-          <a href="https://saifsaki.github.io/Parralax-2/">
+          <a href="https://gryffindo.github.io/Parralax-2/">
             <img src="/img/2.5D.png" alt="" />
           </a>
         </div>
         <div className="row">
-          <a href="https://saifsaki.github.io/Parallax-1/">
+          <a href="https://gryffindo.github.io/Parallax-1/">
             <img src="/img/moon.png" alt="" />
           </a>
         </div>

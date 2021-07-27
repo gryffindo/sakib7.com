@@ -1,10 +1,10 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 170,
+      value: 80,
       density: {
         enable: true,
-        value_area: 2083.1330320802504
+        value_area: 1100
       }
     },
     color: {
@@ -26,27 +26,27 @@ const particlesConfig = {
       }
     },
     opacity: {
-      value: 1,
-      random: true,
+      value: 0.5,
+      random: false,
       anim: {
-        enable: true,
+        enable: false,
         speed: 1,
-        opacity_min: 0,
+        opacity_min: 0.1,
         sync: false
       }
     },
     size: {
-      value: 10,
+      value: 5,
       random: true,
       anim: {
         enable: false,
-        speed: 4,
-        size_min: 0.3,
+        speed: 40,
+        size_min: 0.1,
         sync: false
       }
     },
     line_linked: {
-      enable: false,
+      enable: true,
       distance: 150,
       color: "#ffffff",
       opacity: 0.4,
@@ -54,16 +54,16 @@ const particlesConfig = {
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 0.5,
       direction: "none",
-      random: true,
+      random: false,
       straight: false,
       out_mode: "out",
       bounce: false,
       attract: {
         enable: false,
         rotateX: 600,
-        rotateY: 600
+        rotateY: 1200
       }
     }
   },
@@ -71,12 +71,12 @@ const particlesConfig = {
     detect_on: "canvas",
     events: {
       onhover: {
-        enable: true,
-        mode: "grab"
+        enable: false,
+        mode: "repulse"
       },
       onclick: {
-        enable: true,
-        mode: "repulse"
+        enable: false,
+        mode: "push"
       },
       resize: true
     },
@@ -88,14 +88,14 @@ const particlesConfig = {
         }
       },
       bubble: {
-        distance: 250,
-        size: 0,
+        distance: 400,
+        size: 40,
         duration: 2,
-        opacity: 0,
+        opacity: 8,
         speed: 3
       },
       repulse: {
-        distance: 400,
+        distance: 200,
         duration: 0.4
       },
       push: {

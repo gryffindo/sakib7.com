@@ -1,5 +1,5 @@
 import Header from "../components/header";
-import "../styles/main.css";
+import "../styles/main.scss";
 import Hero from "../components/home/hero";
 import About from "../components/home/about";
 import Skills from "../components/home/skills";

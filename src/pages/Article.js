@@ -1,6 +1,6 @@
 import Header from '../components/header'
-import  '../styles/article.css';
-import '../styles/main.css'
+import  '../styles/article.scss';
+import '../styles/main.scss'
 import Data from '../data.json';
 import {Link} from 'react-router-dom'
 import Footer from '../components/Footer'

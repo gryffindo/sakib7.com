@@ -1,4 +1,4 @@
-import "../../styles/awards.css";
+import "../../styles/awards.scss";
 
 const Info = () => {
   return (

@@ -1,10 +1,11 @@
 import Header from "../components/header";
+import Clock from '../components/Clock'
 
 const AbMe = () => {
   return (
     <>
       <Header />
-
+			<Clock />
       <div className="section">
         <h1 class="hello_kitty">About</h1>
         <div class="about-me-info">

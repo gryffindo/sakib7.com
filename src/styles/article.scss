@@ -131,13 +131,18 @@
   justify-content: center;
 }
 
-.title {
+.title-blog {
   color: #ed5565;
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 991.98px) {
+	.article-blog {
+		margin-left: 0;
+	}
+}
 @media only screen and (max-width: 299.98px) {
-  .title {
+  .title-blog {
     font-size: 1.5rem;
   }
 

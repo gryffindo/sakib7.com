@@ -7,7 +7,7 @@ const AbMe = () => {
       <Header />
 			<Clock />
       <div className="section">
-        <h1 class="hello_kitty">About</h1>
+        <h1 style={{marginTop: "100px"}} class="hello_kitty">About</h1>
         <div class="about-me-info">
           <h2>بسم الله</h2>
           <p>

@@ -10,7 +10,7 @@ const Article1 = () => {
     <>
       <Header />
       <div className="article-blog">
-				<h1 className="title">{data1.title}</h1>
+				<h1 className="title-blog">{data1.title}</h1>
 				<p className="desc">
 					{data1.desc}
 				</p>

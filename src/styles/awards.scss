@@ -81,7 +81,11 @@ footer {
 }
 
 /* Footer End */
-
+@media only screen and (max-width: 991.98px){
+	#note {
+		margin-left: 0;
+	}
+}
 @media only screen and (max-width: 767.98px) {
   .progra {
     width: 500px;

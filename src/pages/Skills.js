@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <>
       <Header />
-      <div id="skills">
+      <div style={{marginTop: "100px"}} id="skills">
         <h1 className="hello_kitty">Skills</h1>
         <div className="about-me-info">
           <p>

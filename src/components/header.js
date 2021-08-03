@@ -12,7 +12,7 @@ function Header() {
     <div>
       <div class="main-menu">
         <div class="main-menu__top">
-          <h1 class="top_heading">Sakib</h1>
+          <h1 class="top_heading"><Link to="/">Sakib</Link></h1>
           <span>Programmer </span>
         </div>
         <div class="main-menu_nav">
@@ -26,7 +26,7 @@ function Header() {
         <p className="email">sakibalhasan17442@gmail.com</p>
       </div>
       <div className="small-header">
-        <h1 className="small">Sakib</h1>
+        <Link style={{textDecoration: "none"}} to="/"><h1 className="small">Sakib</h1></Link>
         <div className="toggle" onClick={showSidebar}></div>
 				<nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
 				<ul className='nav-menu-items' onClick={showSidebar}>

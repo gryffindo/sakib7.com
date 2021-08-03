@@ -48,12 +48,17 @@ body {
   font-family: "Lobster", cursive;
   font-size: 32px;
   font-weight: 500;
-  color: #fff;
   cursor: pointer;
   transition: 0.4s;
   margin-bottom: 2rem;
+	text-decoration: none;
 
-  &:hover {
+}
+.top_heading a {
+	text-decoration: none;
+	color: #fff;
+	transition: 0.4s;
+	&:hover {
     color: #ed5565;
   }
 }
@@ -231,7 +236,7 @@ body {
   z-index: 1000000;
 
   &:hover {
-    background: #181818;
+    background: #ed5565;
   }
 
   &::before {
@@ -409,20 +414,7 @@ span {
   }
 }
 
-.about-me-info {
-  max-width: 600px;
-  background-color: #252627;
-  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 25);
-  padding: 50px;
-  position: relative;
-  top: -10%;
-  left: 50%;
-  right: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-size: 1.3rem;
-}
+
 
 #skills h1 {
   font-size: 10rem;
